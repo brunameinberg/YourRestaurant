@@ -1,0 +1,16 @@
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    background-color: gray;
+}
+.images{
+    width: 3rem;
+    height: 3rem;
+
+}
+.titulo{
+    font-size: 2rem;
+    align-self: center;
+}
