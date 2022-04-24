@@ -10,6 +10,13 @@
     height: 3rem;
 
 }
+
+.images2{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+
 .titulo{
     font-size: 2rem;
     align-self: center;
@@ -20,17 +27,91 @@
     align-self: center;
 }
 
+.titulo3{
+    font-size: 1.5rem;
+    align-self: center;
+    border-radius:10px;
+    background-color: skyblue;
+    width: 12rem;
+    height: 2rem ;
+    margin: 1rem;
+    padding: 1rem 0.1rem 1rem 0.1rem;
+    border: solid 0.5 rem;
+    border-width: 0.2 rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.centralizador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .botao{
     border-radius:10px;
     background-color: skyblue;
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 50px ;
+    width: 10rem;
+    height: 2rem ;
     margin: 1rem;
     padding: 1rem 0.1rem 1rem 0.1rem;
-    border: solid 1px;
-    border-width: 2px;
-    align-items: center;
+    border: solid 0.5 rem;
+    border-width: 0.2 rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;   
+}
+
+.botao2{
+    border-radius:10px;
+    background-color: skyblue;
+    width: 10rem;
+    height: 2rem ;
+    margin: 1rem;
+    padding: 1rem 0.1rem 1rem 0.1rem;
+    border: solid 0.5 rem;
+    border-width: 0.2 rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.seta{
+    width: 3rem;
+    height: 3rem;
+}
+
+.perfil{
+    text-align: center;
+    font-size: 2rem;
+}
+.perfil2{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+.caixa{
+    
+    width: 10rem;
+    height: 3rem;
+    border: solid;
+    border-width: 0.1rem;
+    margin: 0.5rem;
+
+}
+.sub{
+    display: flex;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+.text{
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
