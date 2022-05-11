@@ -1,9 +1,14 @@
-
+html{
+    background-color: #f2f2f2;
+}
 .cabecalho{
     display: flex;
     justify-content: space-between;
     height: 3rem;
-    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    border-bottom: 0.1rem solid black;
 }
 .images{
     width: 3rem;
@@ -25,24 +30,53 @@
 .titulo2{
     font-size: 2rem;
     align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+}
+.titulo2veg{
+    font-size: 2rem;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#A2B54E;
+}
+
+.titulo2ce{
+    font-size: 2rem;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#E6C240;
+}
+
+.titulo2lac{
+    font-size: 2rem;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#00AFCC;
 }
 
 .titulo3{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     align-self: center;
     border-radius:10px;
-    background-color: skyblue;
+    background-color: #f2f2f2;
     width: 12rem;
     height: 2rem ;
     margin: 1rem;
     padding: 1rem 0.1rem 1rem 0.1rem;
-    border: solid 0.5 rem;
-    border-width: 0.2 rem;
+    border: solid 0.5rem;
+    border-width: 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
     
 }
 
@@ -55,34 +89,57 @@
 
 .botao{
     border-radius:10px;
-    background-color: skyblue;
+    background-color: #f2f2f2;
     width: 10rem;
     height: 2rem ;
     margin: 1rem;
     padding: 1rem 0.1rem 1rem 0.1rem;
-    border: solid 0.5 rem;
-    border-width: 0.2 rem;
+    border: solid 0.5rem;
+    border-color: black;
+    border-width: 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;   
-}
+    font-family: 'Montserrat', sans-serif;
 
-.botao2{
+}
+.botao1{
     border-radius:10px;
-    background-color: skyblue;
+    background-color: #f2f2f2;
     width: 10rem;
     height: 2rem ;
     margin: 1rem;
     padding: 1rem 0.1rem 1rem 0.1rem;
-    border: solid 0.5 rem;
-    border-width: 0.2 rem;
+    border: solid 0.5rem;
+    border-color: #A2B54E;
+    border-width: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;   
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.botao2{
+    border-radius:10px;
+    background-color: #f2f2f2;
+    width: 10rem;
+    height: 2rem ;
+    margin: 1rem;
+    padding: 1rem 0.1rem 1rem 0.1rem;
+    border: solid 0.5rem;
+    border-width: 0.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 .seta{
     width: 3rem;
@@ -92,10 +149,14 @@
 .perfil{
     text-align: center;
     font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 .perfil2{
     margin-left: 4rem;
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 .caixa{
     
@@ -104,14 +165,24 @@
     border: solid;
     border-width: 0.1rem;
     margin: 0.5rem;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    border-color: #00AFCC;
 }
+
+
 .sub{
     display: flex;
-    text-decoration: none;
-    text-decoration-color: black;
 }
 .text{
     font-size: 1rem;
     margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color:black;
 }
