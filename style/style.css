@@ -15,6 +15,11 @@ html{
     height: 3rem;
 
 }
+.images{
+    width: 3rem;
+    height: 3rem;
+
+}
 
 .images2{
     width: 2rem;
@@ -141,13 +146,31 @@ html{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+
+.botao_surp{
+    border-radius:10px;
+    background-color: #f2f2f2;
+    width: 30rem;
+    height: 15rem ;
+    margin: 1rem;
+    padding: 1rem 0.1rem 1rem 0.1rem;
+    border: solid 0.5rem;
+    border-width: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .seta{
     width: 3rem;
     height: 3rem;
 }
 
 .perfil{
-    text-align: center;
+    margin-left: 1rem;
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -170,7 +193,9 @@ html{
     text-decoration: none;
     border-color: #00AFCC;
 }
-
+.profile_ref{
+    border: 1px solid black;
+}
 
 .sub{
     display: flex;
@@ -185,4 +210,17 @@ html{
 a{
     text-decoration: none;
     color:black;
+}
+.profile_janela{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position:fixed;
+    right: 0%;
+    top: 5.5%;
+    width: 20rem;
+    background-color: rgba(242, 242, 242, 1);
+    padding-bottom: 1rem;
+    border: 0.1rem solid #00AFCC;
 }
