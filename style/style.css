@@ -108,8 +108,26 @@ html{
     align-items: center;
     text-decoration: none;   
     font-family: 'Montserrat', sans-serif;
-
 }
+
+.botao_a{
+    border-radius:10px;
+    background-color: #f2f2f2;
+    width: 15rem;
+    height: 3rem ;
+    margin: 1rem;
+    padding: 1rem 0.1rem 1rem 0.1rem;
+    border: solid 0.5rem;
+    border-color: black;
+    border-width: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;   
+    font-family: 'Montserrat', sans-serif;
+}
+
 .botao1{
     border-radius:10px;
     background-color: #f2f2f2;
@@ -193,9 +211,6 @@ html{
     text-decoration: none;
     border-color: #00AFCC;
 }
-.profile_ref{
-    border: 1px solid black;
-}
 
 .sub{
     display: flex;
@@ -206,7 +221,19 @@ html{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
-
+.text2{
+    align-self: center;
+    text-decoration: solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.text3{
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
 a{
     text-decoration: none;
     color:black;
@@ -223,4 +250,15 @@ a{
     background-color: rgba(242, 242, 242, 1);
     padding-bottom: 1rem;
     border: 0.1rem solid #00AFCC;
+}
+.linha{
+    margin-left:1.2rem;
+}
+.input{
+    margin-top: 1rem;
+    border: black 1rem;
+}
+.input2{
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
 }
