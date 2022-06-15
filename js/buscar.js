@@ -6,11 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     submit = document.querySelector('input[type="submit"]')
 
     submit.addEventListener('click', function(event) {
-        
-        texto = '📍 Proximidades de:' + text.value
+        texto = text.value
         localStorage.setItem('Endereco', texto)
         window.location.replace("./restaurante.html");
         event.preventDefault()
-
+        
     })
 })

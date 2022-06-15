@@ -6,11 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     for (b of botao2){
 
         b.addEventListener('click', function(event) {
-
+            localStorage.removeItem('Endereco');
             t = event.currentTarget
-
             p = t.querySelector('p')
-
             localStorage.setItem('nome', p.innerHTML)
 
         })

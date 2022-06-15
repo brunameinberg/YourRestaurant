@@ -1,12 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 
-    perfil = document.querySelector('.perfil2')
+    perfil = document.querySelectorAll('.perfil2')
 
-    perfil.innerHTML = localStorage.getItem('nome')
-
+    perfil[1].innerHTML = localStorage.getItem('nome')
 
     endereco = document.querySelector('.text3')
-    
-    endereco.innerHTML = localStorage.getItem('Endereco')
+    if (localStorage.getItem('Endereco')== null){
+    endereco.innerHTML = ' '
+    }
+    else{
+        endereco.innerHTML =  '📍 Proximidades de:'+localStorage.getItem('Endereco');
+    }
+
 })
